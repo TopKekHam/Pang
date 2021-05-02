@@ -4,7 +4,7 @@ public class PlayerController : MonoBehaviour
 {
 
     public PlayerNumber PlayerNumber;
-    PlayerComponent player => EntitiesContainerComponent.SceneSingleton.Players[(int)PlayerNumber];
+    PlayerComponent player => EntitiesContainerComponent.SceneSingleton.Players[(int)PlayerNumber - 1];
 
     bool blockInputs = true;
 

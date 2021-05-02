@@ -203,6 +203,36 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8548115365338055924, guid: 43363494e61ac444b9455d45a92e26d6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8548115365622791280, guid: 43363494e61ac444b9455d45a92e26d6,
+        type: 3}
+      propertyPath: m_MatchWidthOrHeight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8548115365622791287, guid: 43363494e61ac444b9455d45a92e26d6,
+        type: 3}
+      propertyPath: m_AdditionalShaderChannelsFlag
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 8548115366147978982, guid: 43363494e61ac444b9455d45a92e26d6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8548115366606704258, guid: 43363494e61ac444b9455d45a92e26d6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8548115367191915185, guid: 43363494e61ac444b9455d45a92e26d6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8548115367308045534, guid: 43363494e61ac444b9455d45a92e26d6,
         type: 3}
       propertyPath: m_RootOrder

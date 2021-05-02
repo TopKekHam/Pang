@@ -45,6 +45,8 @@ public class LevelComponent : MonoBehaviour
 
     public float LevelTimer { get; private set; }
 
+    int playersAlive;
+
     void Awake()
     {
         SceneSingleton = this;
@@ -66,9 +68,14 @@ public class LevelComponent : MonoBehaviour
         }
     }
 
-    public void PlayerKilled(PlayerNumber playerNumber)
+    public void PlayerKilled()
     {
-        Lose();
+        playersAlive--;
+
+        if(playersAlive == 0)
+        {
+            Lose();
+        }
     }
 
     public void CheckWinCondition(List<BallComponent> balls)
@@ -111,6 +118,7 @@ public class LevelComponent : MonoBehaviour
         Score = 0;
         Pause();
         yield return new WaitForSecondsRealtime(CountDownTime);
+        playersAlive = (int)GameSingleton.Instance.NumberOfPlayers;
         Play();
         yield return null;
     }

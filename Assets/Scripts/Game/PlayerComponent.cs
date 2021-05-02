@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class PlayerComponent : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class PlayerComponent : MonoBehaviour
     public Collider2D PlayerCollider;
     public GameObject HarpoonPrefab;
     public AudioClip HarpoonShootSound;
+
+    public UnityEvent OnPlayerKilled;
 
     public PlayerMoveDirection moveDirection { get; private set; } = 0;
     public bool shootingHarpoon { get; private set; } = false;
@@ -31,7 +34,7 @@ public class PlayerComponent : MonoBehaviour
 
         float moveDirectionX = 0;
 
-        if(moveDirection.HasFlag(PlayerMoveDirection.Left))
+        if (moveDirection.HasFlag(PlayerMoveDirection.Left))
         {
             moveDirectionX -= 1;
         }
@@ -79,7 +82,7 @@ public class PlayerComponent : MonoBehaviour
 
     public void Kill()
     {
-        LevelComponent.SceneSingleton.PlayerKilled(PlayerNumber);
+        OnPlayerKilled.Invoke();
         Destroy(gameObject);
     }
 

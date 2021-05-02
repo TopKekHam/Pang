@@ -48,13 +48,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b13f8db17cb35544ea8756b1ddfaebea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerNumber: 0
+  PlayerNumber: 1
   MovementSpeed: 3
   HarpoonShootLockTime: 0.2
   PlayerCollider: {fileID: 3425222361235594248}
   HarpoonPrefab: {fileID: 1107544562607103806, guid: 54878c5c854dc474cadc0e0ec9d15471,
     type: 3}
   HarpoonShootSound: {fileID: 8300000, guid: 710e8bb263b8e49438e39e5201a24242, type: 3}
+  OnPlayerKilled:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!50 &3425222361235594250
 Rigidbody2D:
   serializedVersion: 4

@@ -19,5 +19,5 @@ public enum LevelState : int
 
 public enum PlayerNumber : int
 {
-    One = 0, Two = 1
+    One = 1, Two = 2
 }

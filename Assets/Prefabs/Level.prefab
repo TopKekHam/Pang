@@ -745,7 +745,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: -120, y: 0}
-  m_SizeDelta: {x: 100, y: 50}
+  m_SizeDelta: {x: 100, y: 16}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!222 &8548115365338055690
 CanvasRenderer:
@@ -1725,7 +1725,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c0d6f30eae9f9d46881c963c87ad15e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerNumber: 0
+  PlayerNumber: 1
 --- !u!1 &8548115365846849974
 GameObject:
   m_ObjectHideFlags: 0
@@ -2020,7 +2020,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: -10, y: 0}
-  m_SizeDelta: {x: 100, y: 50}
+  m_SizeDelta: {x: 100, y: 16}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!222 &8548115366147978980
 CanvasRenderer:
@@ -2462,7 +2462,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8548115366291801313}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.25, y: 0, z: 0}
+  m_LocalPosition: {x: -9.125, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8548115366984809151}
@@ -2512,7 +2512,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 0.5, y: 9}
+  m_Size: {x: 4.25, y: 9}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -2536,13 +2536,13 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 0.5, y: 0.5}
-    newSize: {x: 0.5, y: 9}
+    newSize: {x: 4.25, y: 9}
     adaptiveTilingThreshold: 0.5
     drawMode: 2
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.5, y: 9}
+  m_Size: {x: 4.25, y: 9}
   m_EdgeRadius: 0
 --- !u!1 &8548115366319655081
 GameObject:
@@ -3141,7 +3141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59f7b83b034052d44b3e505fed0d5347, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NumberOfPlayers: 1
+  NumberOfPlayers: 2
 --- !u!1 &8548115366606704259
 GameObject:
   m_ObjectHideFlags: 0
@@ -3177,7 +3177,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: -70, y: 0}
-  m_SizeDelta: {x: 100, y: 50}
+  m_SizeDelta: {x: 100, y: 16}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!222 &8548115366606704256
 CanvasRenderer:
@@ -3360,7 +3360,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c0d6f30eae9f9d46881c963c87ad15e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerNumber: 0
+  PlayerNumber: 1
 --- !u!114 &8548115366619461490
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3373,7 +3373,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59f7b83b034052d44b3e505fed0d5347, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NumberOfPlayers: 0
+  NumberOfPlayers: 1
 --- !u!1 &8548115366647124724
 GameObject:
   m_ObjectHideFlags: 0
@@ -4144,7 +4144,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8548115367082832022}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.25, y: 0, z: 0}
+  m_LocalPosition: {x: 9.125, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8548115366984809151}
@@ -4194,7 +4194,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 0.5, y: 9}
+  m_Size: {x: 4.25, y: 9}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -4218,13 +4218,13 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 0.5, y: 0.5}
-    newSize: {x: 0.5, y: 9}
+    newSize: {x: 4.25, y: 9}
     adaptiveTilingThreshold: 0.5
     drawMode: 2
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.5, y: 9}
+  m_Size: {x: 4.25, y: 9}
   m_EdgeRadius: 0
 --- !u!1 &8548115367117580951
 GameObject:
@@ -4512,7 +4512,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: -169.6, y: 0}
-  m_SizeDelta: {x: 100, y: 50}
+  m_SizeDelta: {x: 100, y: 16}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!222 &8548115367191915191
 CanvasRenderer:
@@ -4796,7 +4796,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c0d6f30eae9f9d46881c963c87ad15e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerNumber: 1
+  PlayerNumber: 2
 --- !u!1 &8548115367308045535
 GameObject:
   m_ObjectHideFlags: 0
@@ -4849,20 +4849,6 @@ MonoBehaviour:
   TimeToCompliteLevel: 99
   CountDownTime: 1.5
   FloorCollider: {fileID: 8548115366476917074}
-  OnScoreUpdate:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 8548115366147979003}
-        m_MethodName: UpdateScore
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
   OnLevelRestart:
     m_PersistentCalls:
       m_Calls:
@@ -5052,7 +5038,37 @@ PrefabInstance:
     - target: {fileID: 3425222361235594249, guid: eee1f13c138e15f4a9991694f00e0502,
         type: 3}
       propertyPath: PlayerNumber
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425222361235594249, guid: eee1f13c138e15f4a9991694f00e0502,
+        type: 3}
+      propertyPath: OnPlayerKilled.m_PersistentCalls.m_Calls.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425222361235594249, guid: eee1f13c138e15f4a9991694f00e0502,
+        type: 3}
+      propertyPath: OnPlayerKilled.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425222361235594249, guid: eee1f13c138e15f4a9991694f00e0502,
+        type: 3}
+      propertyPath: OnPlayerKilled.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8548115367308045533}
+    - target: {fileID: 3425222361235594249, guid: eee1f13c138e15f4a9991694f00e0502,
+        type: 3}
+      propertyPath: OnPlayerKilled.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425222361235594249, guid: eee1f13c138e15f4a9991694f00e0502,
+        type: 3}
+      propertyPath: OnPlayerKilled.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PlayerKilled
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425222361235594249, guid: eee1f13c138e15f4a9991694f00e0502,
+        type: 3}
+      propertyPath: OnPlayerKilled.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 3425222361235594358, guid: eee1f13c138e15f4a9991694f00e0502,
         type: 3}
@@ -5144,6 +5160,41 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8548115366612345842}
     m_Modifications:
+    - target: {fileID: 3425222361235594249, guid: eee1f13c138e15f4a9991694f00e0502,
+        type: 3}
+      propertyPath: PlayerNumber
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425222361235594249, guid: eee1f13c138e15f4a9991694f00e0502,
+        type: 3}
+      propertyPath: OnPlayerKilled.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425222361235594249, guid: eee1f13c138e15f4a9991694f00e0502,
+        type: 3}
+      propertyPath: OnPlayerKilled.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425222361235594249, guid: eee1f13c138e15f4a9991694f00e0502,
+        type: 3}
+      propertyPath: OnPlayerKilled.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8548115367308045533}
+    - target: {fileID: 3425222361235594249, guid: eee1f13c138e15f4a9991694f00e0502,
+        type: 3}
+      propertyPath: OnPlayerKilled.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425222361235594249, guid: eee1f13c138e15f4a9991694f00e0502,
+        type: 3}
+      propertyPath: OnPlayerKilled.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PlayerKilled
+      objectReference: {fileID: 0}
+    - target: {fileID: 3425222361235594249, guid: eee1f13c138e15f4a9991694f00e0502,
+        type: 3}
+      propertyPath: OnPlayerKilled.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 3425222361235594358, guid: eee1f13c138e15f4a9991694f00e0502,
         type: 3}
       propertyPath: m_Name

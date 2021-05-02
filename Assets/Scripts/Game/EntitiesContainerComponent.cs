@@ -41,7 +41,8 @@ public class EntitiesContainerComponent : MonoBehaviour
 
         for (int i = 0; i < players.Length; i++)
         {
-            Players[(int)players[i].PlayerNumber] = players[i];
+            int playerIndex = (int)players[i].PlayerNumber - 1;
+            Players[playerIndex] = players[i];
             var active = players[i].PlayerNumber <= GameSingleton.Instance.NumberOfPlayers;
             players[i].gameObject.SetActive(active);
         }

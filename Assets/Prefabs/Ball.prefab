@@ -133,7 +133,7 @@ MonoBehaviour:
     type: 3}
   Size: 4
   sprite: {fileID: 4681676174209655156}
-  PopSound: {fileID: 0}
+  PopSound: {fileID: 8300000, guid: 620ed934ed013a7478a50426d05b6b07, type: 3}
 --- !u!58 &4681676175182242505
 CircleCollider2D:
   m_ObjectHideFlags: 0
