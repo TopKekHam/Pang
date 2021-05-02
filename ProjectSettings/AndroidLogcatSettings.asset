@@ -1,0 +1,107 @@
+{
+    "m_SelectedDeviceId": "FA8291A02491",
+    "m_SelectedPackage": {
+        "deviceId": "FA8291A02491",
+        "name": "com.DefaultCompany.com.unity.template.mobile2D",
+        "processId": 18136,
+        "exited": true
+    },
+    "m_SelectedPriority": 0,
+    "m_KnownPackagesForSerialization": [
+        {
+            "deviceId": "FA8291A02491",
+            "name": "com.bllocosn",
+            "processId": 13861,
+            "exited": false
+        },
+        {
+            "deviceId": "FA8291A02491",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 344,
+            "exited": true
+        },
+        {
+            "deviceId": "FA8291A02491",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 8569,
+            "exited": true
+        },
+        {
+            "deviceId": "FA8291A02491",
+            "name": "com.whatsapp",
+            "processId": 11294,
+            "exited": true
+        },
+        {
+            "deviceId": "FA8291A02491",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 14620,
+            "exited": true
+        },
+        {
+            "deviceId": "FA8291A02491",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 15448,
+            "exited": true
+        },
+        {
+            "deviceId": "FA8291A02491",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 18136,
+            "exited": true
+        }
+    ],
+    "m_Tags": {
+        "m_Entries": [
+            {
+                "m_Name": "Filter by all listed tags",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "No Filter",
+                "m_Selected": true
+            },
+            {
+                "m_Name": "",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "Tag Control...",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "Unity",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "CRASH",
+                "m_Selected": false
+            }
+        ]
+    },
+    "m_MemoryViewerState": {
+        "MemoryWindowHeight": 300.0,
+        "MemoryWindowWidth": 170.0,
+        "MemoryTypeEnabled": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+        ],
+        "MemoryGroup": 1,
+        "Behavior": 1
+    },
+    "m_Filter": "",
+    "m_FilterIsRegularExpression": false,
+    "m_SymbolPaths": []
+}
