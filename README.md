@@ -10,7 +10,7 @@ Reason: It was trivial to implement extra levels.
 ### Custom visuals and shaders
 Pixel art visuals + ball shader.
 
-Reason: I like pixel art and shader.
+Reason: I like pixel art and shaders.
 
 ### Custom soundtracks and SFX
 I didnt make the music/sfx.
